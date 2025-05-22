@@ -53,7 +53,7 @@ Feel free to fork, use, and build upon these. Star ⭐ the repo if it helped you
 
 **Ali Ashir**  
 [GitHub Profile](https://github.com/ashir138)  
-[LinkedIn](https://www.linkedin.com/in/ali-ashir)
+[LinkedIn]([https://www.linkedin.com/in/ali-ashir](https://www.linkedin.com/in/ali-ashir-3bb590257/))
 
 ---
 
