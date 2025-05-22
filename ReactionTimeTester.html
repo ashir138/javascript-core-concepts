@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container{
+            width: 300px;
+            height: 600px;
+            margin-top: 10%;
+            margin-left: 40%;
+            padding: 10px;
+            background-color: darkgray;
+            text-align: center;
+        }
+        p{
+            position: relative;
+            top: -20px;
+        }
+        .box{
+            background-color: white;
+            height: 410px;
+            width: 300px;
+        }
+        #object{
+            background-color: black;
+            display: none;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Reaction Test</h1>
+        <p>Click the object quick as you can!</p><hr>
+        <h2>Time: <span id="testtime"></span></h2>
+        <div class="box">
+            <div id="object"></div>
+        </div>
+    </div>
+    <Script src="ExternalJS.js"></Script>
+</body>
+</html>

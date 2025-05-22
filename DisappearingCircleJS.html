@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .circle{
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+            float: left;
+            border-radius: 100px;
+        }
+        #blue-circle{
+            background-color: blue;
+        }
+        #yellow-circle{
+            background-color: yellow;
+        }
+        #green-circle{
+            background-color: green;
+        }
+        .circle:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="circle" id="blue-circle"></div>
+    <div class="circle" id="yellow-circle"></div>
+    <div class="circle" id="green-circle"></div>
+    <script>
+        document.getElementById("blue-circle").onclick = function() {
+            document.getElementById("blue-circle").style.display="none";
+        }
+        document.getElementById("yellow-circle").onclick = function() {
+            document.getElementById("yellow-circle").style.display="none";
+        }
+        document.getElementById("green-circle").onclick = function() {
+            document.getElementById("green-circle").style.display="none";
+        }
+    </script>
+</body>
+</html>

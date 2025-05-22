@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Even or Odd?</h1><br>
+    <label for="number">Enter A Number: </label>
+    <input type="number" id="enterednumber">
+    <button id="btn">Check</button><br>
+    <script>
+        var x;
+        document.getElementById("btn").onclick = function(){
+            x = document.getElementById("enterednumber").value;
+            if(x%2==0){
+                alert("Even");
+            }else{
+                alert("Odd");
+            }
+        }
+    </script>
+</body>
+</html>

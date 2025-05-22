@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: black;
+            color: white;
+            height: 400px;
+            width: 350px;
+            margin-top: 100px;
+            margin-left: 650px;
+            margin-bottom: 100px;
+            padding-top: 10px;
+        }
+        div:hover{
+            margin-top: 80px;
+            margin-bottom: 80px;
+            height: 450px;
+            border-radius: 20px;
+            transition: ease 0.5s;
+        }
+        p{
+            padding-left: 7px;;
+            font-size: 25px;
+        }
+        input{
+            position: relative;
+            left: 19px;
+            width: 300px;
+            height: 50px;
+        }
+        button{
+            position: relative;
+            top: 100px;
+            left: 130px;
+            height: 100px;
+            width: 100px;
+        }
+        button:hover{
+            border-radius: 20px;
+            transition: ease 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>How many fingers I am Holding?</p>
+        <input type="text" id="inputvalue">
+        <button id="btn">Guess</button>
+    </div>
+    <script>
+        document.getElementById("btn").onclick = function(){
+            var randomNum = Math.random();
+            randomNum = Math.floor(randomNum * 5);
+            var guessValue = document.getElementById("inputvalue").value;
+            if(randomNum == guessValue){
+                alert("Wow, You got it. I am Holding " + randomNum + " Fingers");
+            }else{
+                alert("Nope, I was holding " + randomNum + " Fingers");
+            }
+        }
+    </script>
+</body>
+</html>

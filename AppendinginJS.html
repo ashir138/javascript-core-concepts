@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="text">JavaScript is </p>
+    <button id="addbtn">Append</button>
+    <script>
+        document.getElementById("addbtn").onclick = function(){
+            document.getElementById("text").innerHTML = "Yes really! " + document.getElementById("text").innerHTML + "Awesome.............";
+        }
+    </script>
+</body>
+</html>

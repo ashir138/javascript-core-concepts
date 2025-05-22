@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="artext"></div>
+    <script>
+        var arr = ["Good ", "Morning ", "Boss"];
+        var string = "";
+        for(var i=0; i<3; i++){
+            string = string + "<p>" + arr[i] + "</p>";
+        }
+        document.getElementById("artext").innerHTML = string;   
+        var x = 10;
+        for(var i=0; i<5; i++){
+            document.write("Iteraion: " + i + "& X = " + x + "<br>");
+        }
+             
+    </script>
+</body>
+</html>

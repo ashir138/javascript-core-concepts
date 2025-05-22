@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="text">Here is Some Text</p>
+    <button id="btn">Change Style</button>
+    <script>
+        document.getElementById("btn").onclick = function(){
+            document.getElementById("text").style.fontSize = "50px";
+            document.getElementById("text").style.height = "80px";
+            document.getElementById("text").style.width = "380px";
+            document.getElementById("text").style.textShadow = "0px 0px 0px cyan,0px 0px 10px cyan,0px 0px 20px cyan, 0px 0px 40px cyan, 0px 0px 80px cyan";
+        }
+    </script>
+</body>
+</html>
